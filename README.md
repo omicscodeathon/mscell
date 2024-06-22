@@ -1,2 +1,2 @@
 # mscell
-# Cell Lineage and Trajectory Analysis of Single-Cell RNA-seq Data of Multiple Sclerosis Patients
+# Cell Lineage and Trajectory Analysis of Single-cell RNA-seq Data of Multiple Sclerosis Patients
