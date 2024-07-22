@@ -1,6 +1,6 @@
 # mscell
-# Content
 # Cell Lineage and Trajectory Analysis of Single-cell RNA-seq Data of Multiple Sclerosis Patients
+# Content
 # Project Description 
 The aim of this project is to employ single-cell RNA sequencing (scRNA-Seq) to investigate the lineage relationships and developmental trajectories of rare immune cell populations in multiple sclerosis (MS). By utilizing advanced bioinformatics tools for trajectory analysis, we seek to understand how these rare populations evolve in response to inflammatory signals and their potential roles in disease progression. The ultimate goal is to enhance our understanding of cellular diversity and functional states within the MS microenvironment, and to identify novel therapeutic targets that could inform future treatment strategies.
 # Introduction 
