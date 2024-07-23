@@ -18,5 +18,5 @@ The scRNA-Seq data analysis workflow utilizes several key R tools.
 7. Functional and Pathway Analysis is performed using ClusterProfiler.
 8. Integration and Visualization are achieved through Seurat and ComplexHeatmap for effective data representation.
 
-![workflow](https://github.com/user-attachments/assets/49afca8c-9a1c-4fab-bc41-2d125b7d53ef)
+![workflow]([https://github.com/user-attachments/assets/49afca8c-9a1c-4fab-bc41-2d125b7d53ef](https://github.com/omicscodeathon/mscell/blob/main/workflow/workflow.jpg))
 
