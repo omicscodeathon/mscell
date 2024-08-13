@@ -54,8 +54,7 @@ merged_seurat$mitoPercent <- PercentageFeatureSet(merged_seurat, pattern='^MT-')
 merged_seurat_filtered <- subset(merged_seurat, subset = nCount_RNA > 250 &
                                    nFeature_RNA > 200 &
                                    mitoPercent < 5)
-
- merged_seurat_filtered
+merged_seurat_filtered
 
 merged_seurat
 
