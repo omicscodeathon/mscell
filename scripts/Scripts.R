@@ -40,7 +40,7 @@ merged_seurat$sample <- rownames(merged_seurat@meta.data)
 # split sample column
 merged_seurat@meta.data <- separate(merged_seurat@meta.data, col = 'sample', into = c('Patient', 'Barcode'), 
                                     sep = '_')
-merged_seurat@meta.data <- separate(merged_seurat@meta.data, col = 'Patient', into = c('Type', 'Number'), 
+merged_seurat@meta.data <- separate(merged_seurat@meta.data, col = 'Patient', into = c('Type', 'Patient'), 
                                     sep = '-')
 unique(merged_seurat$Number)
 unique(merged_seurat$Type)
@@ -51,9 +51,9 @@ merged_seurat$mitoPercent <- PercentageFeatureSet(merged_seurat, pattern='^MT-')
 
 
 # filtering
-merged_seurat_filtered <- subset(merged_seurat, subset = nCount_RNA > 500 &
-                                   nFeature_RNA > 500 &
-                                   mitoPercent < 10)
+merged_seurat_filtered <- subset(merged_seurat, subset = nCount_RNA > 250 &
+                                   nFeature_RNA > 200 &
+                                   mitoPercent < 5)
 
  merged_seurat_filtered
 
