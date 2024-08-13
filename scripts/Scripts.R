@@ -24,9 +24,9 @@ ls()
 rm(list = "name")
 # merge datasets
 
-merged_seurat <- merge(`MS-19270`, y = c(`MS-58637`, `MS-71658`, `MS-49131`, `MS-60249`, `MS-74594`, 
-   `PST-83775`,`PTC-32190`, `PST-95809`, `PTC-41540`, `PST-45044`, `PTC-85037`), add.cell.ids = ls()[3:14],
-   project = 'MS')
+merged_seurat <- merge(`MS-MA`, y = c(`MS-MB`, `MS-MC`, `MS-MD`, `MS-ME`, 
+   `NMS-NMSA1`, `NMS-NMSB2`, `NMS-NMSC1`, `NMS-NMSD2`, `NMS-NMSE2`), 
+   add.cell.ids = ls()[3:12])
 
 
 merged_seurat
